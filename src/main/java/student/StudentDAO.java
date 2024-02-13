@@ -17,7 +17,7 @@ public class StudentDAO {
 	{
 		try
 		{
-			   conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/sugang", "root", "enter");
+			   conn = DriverManager.getConnection("jdbc:mysql://sugangtest.c7euaq44ad1f.us-east-2.rds.amazonaws.com:3307/sugang", "admin", "00000000");
 			//DB 접속되면 conn 객체에 접속정보가 저장됨.
 		}catch(Exception e)
 		{
